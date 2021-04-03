@@ -99,6 +99,10 @@
      margin: 4rem auto 1.5rem;
  }
  
+ .main img.sotthea {
+     border-radius: 50%;
+ }
+ 
  .main .card-footer {
      position: absolute;
      width: 100%;
@@ -106,3 +110,5 @@
      bottom: 0;
      background-color: rgb(255, 255, 255);
  }
+ 
+ @media (width: 567.98px) {}
