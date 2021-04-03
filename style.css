@@ -1,0 +1,108 @@
+ @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;600&display=swap');
+ * {
+     margin: 0;
+     padding: 0;
+     font-family: 'Sora';
+     box-sizing: border-box;
+ }
+ 
+ :root {
+     --primary-color: rgba(51, 51, 60, 1);
+     --secondary-color: rgba(88, 88, 88, 1);
+     --main-bg-color: rgba(235, 234, 234, 1);
+     --bg-color-1: rgba(189, 186, 193, 1);
+     --bg-color-2: rgba(141, 173, 236, 1);
+     --bg-color-3: rgba(233, 193, 147, 1);
+ }
+ 
+ .main {
+     display: flex;
+     justify-content: center;
+     position: relative;
+     margin: 5rem auto;
+     padding: 2rem;
+     width: 80%;
+     height: 100%;
+     min-height: 100vh;
+     border-radius: 4px;
+     background-color: var(--main-bg-color);
+ }
+ 
+ .main .card-section {
+     display: flex;
+     gap: 2em;
+     position: relative;
+     justify-content: space-around;
+     align-items: center;
+     flex-wrap: wrap;
+     max-width: 100%;
+     height: 100%;
+     min-height: 100vh;
+     padding: 2em;
+     margin: 0em;
+     /* background-color: rgb(109, 62, 62); */
+ }
+ 
+ .card-section .card {
+     display: inline-block;
+     position: relative;
+     width: 300px;
+     height: 380px;
+     border-radius: 14px;
+     overflow: hidden;
+ }
+ 
+ .card-header {
+     display: inline-block;
+     position: absolute;
+     text-align: center;
+     top: 1rem;
+ }
+ 
+ .card-section .card:nth-child(1) {
+     background-color: var(--bg-color-1);
+ }
+ 
+ .card-section .card:nth-child(2) {
+     background-color: var(--bg-color-2);
+ }
+ 
+ .card-section .card:nth-child(3) {
+     background-color: var(--bg-color-3);
+ }
+ 
+ .card-section .card:nth-child(4) {
+     background-color: var(--bg-color-1);
+ }
+ 
+ .card-section .card:nth-child(5) {
+     background-color: var(--bg-color-2);
+ }
+ 
+ .card-section .card:nth-child(6) {
+     background-color: var(--bg-color-3);
+ }
+ 
+ .main p {
+     text-align: center;
+     font-size: 12px;
+ }
+ 
+ .main h5 {
+     text-align: center;
+ }
+ 
+ .main img {
+     display: block;
+     width: 100px;
+     margin: 4rem auto 1.5rem;
+ }
+ 
+ .main .card-footer {
+     position: absolute;
+     width: 100%;
+     height: 60px;
+     bottom: 0;
+     background-color: rgb(255, 255, 255);
+ }
